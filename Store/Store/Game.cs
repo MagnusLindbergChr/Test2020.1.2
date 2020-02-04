@@ -14,11 +14,11 @@ namespace Store
         List<DLC> dlcs;
         double price;
 
-        public Game(string gTitle, string gDescription, double gPrice)
+        public Game(string title, string description, double price)
         {
-            title = gTitle;
-            price = gPrice;
-            description = gDescription;
+            this.title = title;
+            this.description = description;
+            this.price = price;
         }
     }
 }

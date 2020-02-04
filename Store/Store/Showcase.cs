@@ -11,5 +11,20 @@ namespace Store
         {
             games = new Game[size];
         }
+
+        public void AddGame()
+        {
+
+        }
+
+        public void RemoveGame()
+        {
+
+        }
+
+        public void Show()
+        {
+
+        }
     }
 }

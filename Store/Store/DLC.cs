@@ -9,16 +9,14 @@ namespace Store
         string description;
         string genre;
         string rating;
-        Game game;
+        Game parentGame;
         double price;
 
-        public DLC(string dTitle, string dRating, string dGenre, double dPrice Game dGame)
+        public DLC(string title, double price, string description)
         {
-            title = dTitle;
-            rating = dRating;
-            genre = dGenre;
-            price = dPrice;
-            Game = dGame;
+            this.title = title;
+            this.price = price;
+            this.description = description;
         }
     }
 }
